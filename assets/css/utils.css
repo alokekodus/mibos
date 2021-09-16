@@ -1,0 +1,17 @@
+.text-spacing-8{
+    letter-spacing: 8px;
+}
+
+.btn-color{
+    background: #C26701;
+}
+
+.border-left{
+    border-left: 10px solid #C56B01;
+    padding-right: 10px;
+    color: saddlebrown;
+}
+
+.main-color{
+    color: #C56B01;
+}

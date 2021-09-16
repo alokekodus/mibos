@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 30px;
+}
+
+#banner{
+    position: relative;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* height: 100px; */
+    z-index: 999;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.3);
+    opacity: .5;
+    z-index: -1;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.owner img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+input[type=text], input[type=email], button[type=submit]{
+    height: 50px;
+}
+
+#location{
+    background: #111;
+}
+#footer{
+    height: 50px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
