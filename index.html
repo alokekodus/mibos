@@ -15,6 +15,10 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Wow CSS -->
+    <link rel="stylesheet" href="assets/plugins/WowJS/animate.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/utils.css">
     <title>MIBOS INTERNATIONAL IMMIGRATION CONSULTANCY PVT LTD</title>
@@ -38,20 +42,20 @@
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light px-md-5 py-4">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light px-md-5 py-4 fixed-top" id="main-nav">
+            <div class="container-fluid content-wrapper">
                 <a class="navbar-brand" href="#">Logo</a>
                 <button class="navbar-toggler bg-light shdaow-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto text-center">
+                <div class="collapse navbar-collapse menu-wrapper" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center nav-pills">
 
                         <!-- Home -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
 
                         <!-- About -->
@@ -83,17 +87,50 @@
         </nav>
     </div>
 
-    <!-- About us -->
-    <section id="about-us" class="p-md-5 py-5 bg-light">
-        <div class="container">
-            <div class="col-md-12">
-                <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span> <span
-                        class="main-color">About</span> <i>Us</i></p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="assets/img/banner/banner.jpg" alt="About" width="100%">
-                    </div>
+    <div data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" tabindex="0">
+        <!-- About us -->
+        <section id="about-us" class="p-md-5 py-5 bg-light wow fadeInDown">
+            <div class="container">
+                <div class="col-md-12">
+                    <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span> <span
+                            class="main-color">About</span> <i>Us</i></p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/img/banner/banner.jpg" alt="About" width="100%">
+                        </div>
 
+                        <div class="col-md-8">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form, by injected humour, or randomised words which don't look even
+                                slightly
+                                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                                isn't
+                                anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
+                                the
+                                Internet
+                                tend to repeat predefined chunks as necessary, making this the first true generator on
+                                the
+                                Internet.
+                                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
+                                structures,
+                                to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
+                                always
+                                free
+                                from repetition, injected humour, or non-characteristic words etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Who we are -->
+        <section class="container mt-5 wow fadeInDown" id="who-we-are">
+            <div class="col-md-12">
+                <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-md-end"><span class="border-left"></span>
+                    <span class="main-color">who</span> <i>we are</i></p>
+                <div class="row">
                     <div class="col-md-8">
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have
                             suffered
@@ -112,147 +149,130 @@
                             free
                             from repetition, injected humour, or non-characteristic words etc.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-
-    <!-- Who we are -->
-    <section class="container mt-5" id="who-we-are">
-        <div class="col-md-12">
-            <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-md-end"><span class="border-left"></span> <span
-                    class="main-color">who</span> <i>we are</i></p>
-            <div class="row">
-                <div class="col-md-8">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected humour, or randomised words which don't look even slightly
-                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                        Internet
-                        tend to repeat predefined chunks as necessary, making this the first true generator on the
-                        Internet.
-                        It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
-                        structures,
-                        to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always
-                        free
-                        from repetition, injected humour, or non-characteristic words etc.</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="assets/img/banner/banner.jpg" alt="About" width="100%">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Services we offer -->
-    <section class="container mt-5" id="services">
-        <div class="col-md-12">
-            <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span> <span
-                    class="main-color">services</span> <i>we offer</i></p>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/banner/banner.jpg" alt="About" width="100%">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-
-    <!-- Owners message -->
-    <section class="container my-5" id="owners-message">
-        <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-center"><span class="border-left"></span> <span
-                class="main-color">Owner's</span> <i>Message</i></p>
-        <div class="col-md-3 mx-auto owner">
-            <img src="assets/img/banner/banner.jpg" class="rounded-50" alt="Owner" width="100%">
-        </div>
-        <div class="col-md-12 mt-5 mx-auto">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-                are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden
-                in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
-                as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200
-                Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks
-                reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
-                non-characteristic words etc.</p>
-        </div>
-    </section>
-
-
-    <!-- Product verticals -->
-
-
-    <!-- How we work -->
-
-
-    <!-- Get in touch -->
-    <section id="contact" class="bg-light p-md-5 py-5">
-        <div class="container mt-5">
+        <!-- Services we offer -->
+        <section class="container mt-5 wow fadeInDown" id="services">
             <div class="col-md-12">
-                <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-center"><span class="border-left"></span>
-                    <span class="main-color">Contact</span> <i>Us</i>
-                </p>
+                <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span> <span
+                        class="main-color">services</span> <i>we offer</i></p>
+
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="assets/img/contact/contact.svg" alt="Contact" width="100%">
+                        <div class="card border-0">
+                            <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-7 ms-auto">
-                        <form id="contactForm" method="POST">
-                            <div class="mb-3">
-                                <input type="text" class="form-control rounded-0 shadow-none" id="name" name="name"
-                                    placeholder="Enter your name">
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
                             </div>
-
-                            <div class="mb-3">
-                                <input type="email" class="form-control rounded-0 shadow-none" id="email" name="email"
-                                    placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card border-0">
+                            <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
                             </div>
-
-                            <div class="mb-3">
-                                <input type="text" class="form-control rounded-0 shadow-none" id="phone" name="phone"
-                                    placeholder="Enter 10 digit phone number">
-                            </div>
-
-                            <div class="mb-3">
-                                <textarea class="form-control rounded-0 shadow-none" id="message" name="message"
-                                    rows="3" placeholder="Enter your message"></textarea>
-                            </div>
-                            <button type="submit"
-                                class="btn btn-color form-control rounded-0 shadow-none text-light text-uppercase fw-bold">Submit</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+
+
+        <!-- Owners message -->
+        <section class="container my-5 wow fadeInDown" id="owners-message">
+            <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-center"><span class="border-left"></span> <span
+                    class="main-color">Owner's</span> <i>Message</i></p>
+            <div class="col-md-3 mx-auto owner">
+                <img src="assets/img/banner/banner.jpg" class="rounded-50" alt="Owner" width="100%">
+            </div>
+            <div class="col-md-12 mt-5 mx-auto">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable. If
+                    you
+                    are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                    hidden
+                    in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                    chunks
+                    as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200
+                    Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which
+                    looks
+                    reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                    non-characteristic words etc.</p>
+            </div>
+        </section>
+
+
+        <!-- Product verticals -->
+
+
+        <!-- How we work -->
+
+
+        <!-- Get in touch -->
+        <section id="contact" class="bg-light p-md-5 py-5 wow fadeInDown">
+            <div class="container mt-5">
+                <div class="col-md-12">
+                    <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-center"><span class="border-left"></span>
+                        <span class="main-color">Contact</span> <i>Us</i>
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/img/contact/contact.svg" alt="Contact" width="100%">
+                        </div>
+                        <div class="col-md-7 ms-auto">
+                            <form id="contactForm" method="POST">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control rounded-0 shadow-none" id="name" name="name"
+                                        placeholder="Enter your name">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="email" class="form-control rounded-0 shadow-none" id="email"
+                                        name="email" placeholder="Enter your email">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="text" class="form-control rounded-0 shadow-none" id="phone"
+                                        name="phone" placeholder="Enter 10 digit phone number">
+                                </div>
+
+                                <div class="mb-3">
+                                    <textarea class="form-control rounded-0 shadow-none" id="message" name="message"
+                                        rows="3" placeholder="Enter your message"></textarea>
+                                </div>
+                                <button type="submit"
+                                    class="btn btn-color form-control rounded-0 shadow-none text-light text-uppercase fw-bold">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
     <!--  Location and Map -->
@@ -286,6 +306,10 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/additional-methods.min.js"></script>
 
+    <!-- WowJS -->
+    <script src="assets/plugins/WowJS/wow.min.js"></script>
+
+    <!-- Custom Script -->
     <script src="assets/js/script.js"></script>
 </body>
 

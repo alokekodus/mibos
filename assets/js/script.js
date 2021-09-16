@@ -18,12 +18,21 @@
 })(jQuery);
 
 $(document).ready(function () {
+
+    // Nav link color initialy black
+    $(".nav-link").css({
+        color: "#111",
+    });
+      
   // Phone only accepts number
   $("#phone").inputFilter(function (value) {
     return (
       /^\d*$/.test(value) && (value === "" || parseInt(value) <= 9999999999)
     );
   });
+
+  //   Wow initiate
+  new WOW().init();
 
   // Nav bar on scroll
   $(window).scroll(function () {
