@@ -1,63 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root{
+    /* --main-color: #C56B01 !important; */
+    --main-color: #006D77 !important;
+}
+
 body{
-    position: relative;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Montserrat', sans-serif;
+}
+
+.row>*{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 body, html {
     height: 100%;
 }
 
-p{
-    line-height: 30px;
-}
-
-/* #banner{
-    position: relative;
-}
-
-.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-} */
-
-.navbar::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(1, 1, 1, 0.3);
-    opacity: .5;
-    z-index: -1;
-}
-
-.nav-link{
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.carousel-item img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-}
-
-.owner img{
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-}
-
 input[type=text], input[type=email], button[type=submit]{
     height: 50px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 #location{
@@ -71,4 +40,18 @@ input[type=text], input[type=email], button[type=submit]{
     align-items: center;
     color: #fff;
     font-size: 15px;
+}
+
+#socials{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: var(--main-color);
 }

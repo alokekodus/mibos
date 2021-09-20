@@ -21,209 +21,89 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/utils.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <title>MIBOS INTERNATIONAL IMMIGRATION CONSULTANCY PVT LTD</title>
 </head>
 
 <body>
-    <!-- Banner -->
-    <div id="banner">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/banner/banner.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/banner/banner.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/banner/banner.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-        </div>
-
+    <!-- Container start -->
+    <div class="padding-x-80">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light px-md-5 py-4 fixed-top" id="main-nav">
-            <div class="container-fluid content-wrapper">
-                <a class="navbar-brand" href="#">Logo</a>
-                <button class="navbar-toggler bg-light shdaow-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse menu-wrapper" id="navbarNav">
-                    <ul class="navbar-nav ms-auto text-center nav-pills">
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold main-color" href="#">MIBOS CONSULTANCY</a>
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-left"></i>
+                  </button>
 
-                        <!-- Home -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-
-                        <!-- About -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">About</a>
-                        </li>
-                        <!-- Who we are -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#who-we-are">Who we are</a>
-                        </li>
-
-                        <!-- Services we offer -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services we offer</a>
-                        </li>
-
-                        <!-- Owners message -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#owners-message">Owners message</a>
-                        </li>
-
-                        <!-- Contact us -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#">Admissions</a>
+                        <a class="nav-link" href="#">Countries</a>
                     </ul>
                 </div>
             </div>
         </nav>
-    </div>
 
-    <div data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0" tabindex="0">
+        <!-- Banner -->
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-7 h-90-vh order-1 order-md-2">
+                    <img class="cover" src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Banner">
+                </div>
+                <div class="col-md-5 bg-main h-90-vh d-flex justify-content-center align-items-center padding-y-30 order-2 order-md-1">
+                    <p class="text-light fs-1 fw-bold px-3 px-md-5">MIBOS INTERNATIONAL IMMIGRATION CONSULTANCY  <br> A Greate Place to start your journey!</p>
+                </div>
+            </div>
+        </div>
+
         <!-- About us -->
-        <section id="about-us" class="p-md-5 py-5 bg-light wow fadeInDown">
-            <div class="container">
-                <div class="col-md-12">
-                    <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span> <span
-                            class="main-color">About</span> <i>Us</i></p>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="assets/img/banner/banner.jpg" alt="About" width="100%">
-                        </div>
+        <div class="col-md-12 margin-top-100" id="about">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="px-md-5 px-4">
+                        <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span>
+                            <span class="main-color">About</span> <i>MIBOS</i>
+                        </p>
+                        <!-- <p class="fs-1 fw-bolder">About MIBOS</p> -->
+                        <p>We are an authorized representative of over global universities and institutions across countries in the world we Assisted for higher studies in popular international study destinations such as The USA, The UK, Canada, Australia, New Zealand, Ireland, Singapore, Europe and many more</p>
+                    </div>
+                </div>
+                <div class="col-md-6 h-90-vh">
+                    <img class="cover" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Banner" width="100%">
+                </div>
+            </div>
+        </div>
 
-                        <div class="col-md-8">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even
-                                slightly
-                                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                isn't
-                                anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
-                                the
-                                Internet
-                                tend to repeat predefined chunks as necessary, making this the first true generator on
-                                the
-                                Internet.
-                                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
-                                structures,
-                                to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
-                                always
-                                free
-                                from repetition, injected humour, or non-characteristic words etc.</p>
-                        </div>
+
+
+        <!-- Study abroad -->
+        <div class="col-md-12 margin-top-100">
+            <div class="row">
+                <div class="col-md-6 h-90-vh order-2 order-md-1">
+                    <img class="cover" src="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Banner" width="100%">
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center order-1 order-md-2">
+                    <div class="px-md-5 px-4">
+                        <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span>
+                            <span class="main-color">Study</span> <i>Abroad</i>
+                        </p>
+                        <!-- <p class="fs-1 fw-bolder">Study Abroad</p> -->
+                        <p>Applying for studies abroad is a crucial decision as such we do not limit our counselling just to the right country and university choice, but extend it to help you make the right 'career decision'.</p>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-        <!-- Who we are -->
-        <section class="container mt-5 wow fadeInDown" id="who-we-are">
-            <div class="col-md-12">
-                <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-md-end"><span class="border-left"></span>
-                    <span class="main-color">who</span> <i>we are</i></p>
-                <div class="row">
-                    <div class="col-md-8">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered
-                            alteration in some form, by injected humour, or randomised words which don't look even
-                            slightly
-                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                            isn't
-                            anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                            Internet
-                            tend to repeat predefined chunks as necessary, making this the first true generator on the
-                            Internet.
-                            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence
-                            structures,
-                            to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
-                            always
-                            free
-                            from repetition, injected humour, or non-characteristic words etc.</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <img src="assets/img/banner/banner.jpg" alt="About" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
 
 
         <!-- Services we offer -->
-        <section class="container mt-5 wow fadeInDown" id="services">
-            <div class="col-md-12">
-                <p class="fs-2 fw-bold text-spacing-8 text-uppercase"><span class="border-left"></span> <span
-                        class="main-color">services</span> <i>we offer</i></p>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card border-0">
-                            <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card border-0">
-                            <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card border-0">
-                            <img src="assets/img/banner/banner.jpg" class="card-img-top rounded-0" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 
         <!-- Owners message -->
-        <section class="container my-5 wow fadeInDown" id="owners-message">
-            <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-center"><span class="border-left"></span> <span
-                    class="main-color">Owner's</span> <i>Message</i></p>
-            <div class="col-md-3 mx-auto owner">
-                <img src="assets/img/banner/banner.jpg" class="rounded-50" alt="Owner" width="100%">
-            </div>
-            <div class="col-md-12 mt-5 mx-auto">
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration
-                    in some form, by injected humour, or randomised words which don't look even slightly believable. If
-                    you
-                    are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
-                    hidden
-                    in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                    chunks
-                    as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200
-                    Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which
-                    looks
-                    reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
-                    non-characteristic words etc.</p>
-            </div>
-        </section>
+
 
 
         <!-- Product verticals -->
@@ -233,18 +113,18 @@
 
 
         <!-- Get in touch -->
-        <section id="contact" class="bg-light p-md-5 py-5 wow fadeInDown">
-            <div class="container mt-5">
+        <section id="contact" class="p-md-5 py-5 wow fadeInDown mt-5">
+            <div class="mt-5">
                 <div class="col-md-12">
                     <p class="fs-2 fw-bold text-spacing-8 text-uppercase text-center"><span class="border-left"></span>
                         <span class="main-color">Contact</span> <i>Us</i>
                     </p>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="assets/img/contact/contact.svg" alt="Contact" width="100%">
+                            <img class="px-4" src="assets/img/contact/contact.svg" alt="Contact" width="100%">
                         </div>
                         <div class="col-md-7 ms-auto">
-                            <form id="contactForm" method="POST">
+                            <form id="contactForm" class="px-4" method="POST">
                                 <div class="mb-3">
                                     <input type="text" class="form-control rounded-0 shadow-none" id="name" name="name"
                                         placeholder="Enter your name">
@@ -273,6 +153,7 @@
             </div>
         </section>
     </div>
+    <!-- Container ends -->
 
 
     <!--  Location and Map -->
@@ -288,6 +169,14 @@
         <p>Designed and developed by <a href="https://ekodus.com/" class="text-light">Ekodus Technologies</a></p>
     </div>
 
+    <!-- Social button -->
+    <div id="socials">
+        <ul class="d-flex flex-column">
+            <li class="mb-2"><a href="#"><img src="assets/img/socials/facebook.png" alt="facebook" width="35"></a></li>
+            <li class="mb-2"><a href="#"><img src="assets/img/socials/instagram.png" alt="instagram" width="35"></a></li>
+            <li class="mb-2"><a href="#"><img src="assets/img/socials/youtube.png" alt="youtube" width="35"></a></li>
+        </ul>
+    </div>
     <!-- Scripts -->
 
     <!-- JQuery -->

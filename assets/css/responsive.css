@@ -1,0 +1,26 @@
+@media (max-width: 576px) { 
+    .padding-x-80{
+        padding: unset;
+    }
+
+    .h-90-vh{
+        height: unset;
+    }
+
+    .padding-y-30{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+ }
+@media (max-width: 768px) { 
+
+ }
+@media (max-width: 992px) { 
+
+ }
+@media (max-width: 1200px) { 
+
+ }
+@media (max-width: 1400px) { 
+
+ }

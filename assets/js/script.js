@@ -18,11 +18,6 @@
 })(jQuery);
 
 $(document).ready(function () {
-
-    // Nav link color initialy black
-    $(".nav-link").css({
-        color: "#111",
-    });
       
   // Phone only accepts number
   $("#phone").inputFilter(function (value) {
@@ -33,28 +28,6 @@ $(document).ready(function () {
 
   //   Wow initiate
   new WOW().init();
-
-  // Nav bar on scroll
-  $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll > 50) {
-      $(".navbar").css({
-        background: "#111",
-      });
-
-      $(".nav-link").css({
-        color: "#fff",
-      });
-    } else {
-      $(".navbar").css({
-        background: "transparent",
-      });
-
-      $(".nav-link").css({
-        color: "#111",
-      });
-    }
-  });
 
   // Form submit script
   $("#contactForm").validate({
