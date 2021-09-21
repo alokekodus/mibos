@@ -6,10 +6,23 @@
     .h-90-vh{
         height: unset;
     }
+    
+    .h-60-vh{
+        height: unset;
+    }
 
     .padding-y-30{
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .margin-top-100{
+        margin-top: 30px;
     }
  }
 @media (max-width: 768px) { 

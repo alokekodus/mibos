@@ -25,8 +25,12 @@
     background: var(--main-color);
 }
 
-.h-90-vh{
+.h-6-vh{
     height: 100vh;
+}
+
+.h-60-vh{
+    height: 60vh;
 }
 
 .list-style-type-none{
