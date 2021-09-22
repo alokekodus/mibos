@@ -44,8 +44,11 @@ ul {
 
 #socials{
     position: fixed;
-    bottom: 20px;
+    bottom: 45%;
     right: 20px;
+}
+#socials img{
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
 .active{

@@ -1,0 +1,32 @@
+<div class="countries" id="countryList">
+    <!-- Country 1 -->
+    <div class="row h-60-vh mb-2">
+
+        <!-- Mobile second -->
+        <div class="col-md-3 d-flex justify-content-center align-items-center bg-main order-2 order-md-1">
+            <p class="text-light fs-2 fw-bold">USA</p>
+        </div>
+
+        <!-- Mobile first -->
+        <div class="col-md-3 order-1 order-md-2">
+            <img class="cover wow fadeInDown"
+                src="https://images.unsplash.com/photo-1600074169098-16a54d791d0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="USA" width="100%">
+        </div>
+
+        <!-- Mobile third -->
+        <div class="col-md-6 d-flex justify-content-center align-items-center bg-light order-3 order-md-3">
+            <p class="p-md-5 px-md-5 px-4">
+                The United States of America has been a global leader in the field of education and boasts
+                of a lion’s share of top ranked universities according to all major international rankings.
+                Few countries offer as many high ranked universities and noble laureate academia, as USA
+                does. As a matter of fact, nearly 50 of the top 200 universities in the world are based in
+                USA.
+
+                Universities in USA are also credited for innumerable patents and ground-breaking
+                innovations, offering a chance to study and compete with some of the finest minds in the
+                respective fields.
+            </p>
+        </div>
+    </div>
+</div>
